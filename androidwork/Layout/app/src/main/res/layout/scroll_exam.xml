@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:background="#000000">
+         <ImageView
+            android:layout_height="30dp"
+            android:layout_width="30dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#ffffff"
+            android:text="김샘자바"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+    <ImageView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/java"
+        android:layout_marginBottom="15dp"
+        android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="left"
+                    android:textSize="22sp"
+                    android:text="JavaProgramming"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="left"
+                    android:textSize="20sp"
+                    android:text="basicJava와 advanced자바"
+                    android:textStyle="bold"/>
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/spring" android:layout_marginBottom="15dp" android:scaleType="centerCrop"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="22sp" android:text="spring" android:textStyle="bold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="20sp" android:text="spring을 이용한 웹 구축" android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/hadoop" android:layout_marginBottom="15dp" android:scaleType="centerCrop"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="22sp" android:text="hadoop" android:textStyle="bold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="20sp" android:text="bigdata처리" android:textStyle="bold"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="vertical">
+
+    <ImageView android:layout_height="match_parent" android:layout_width="match_parent" android:src="@drawable/android" android:layout_marginBottom="15dp" android:scaleType="centerCrop"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="22sp" android:text="android" android:textStyle="bold"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="left" android:textSize="20sp" android:text="IoT클라이언트" android:textStyle="bold"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
