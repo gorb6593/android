@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/checktxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wifi이용" />
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="1"
+        android:text="체크박스1" />
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="2"
+        android:text="체크박스2" />
+
+    <CheckBox
+        android:id="@+id/check3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="3"
+        android:text="체크박스3" />
+
+    <Button
+        android:id="@+id/btncheck1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크상태설정" />
+
+    <Button
+        android:id="@+id/btncheck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크상태확인" />
+
+    <Button
+        android:id="@+id/btncheck3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크상태해제" />
+
+    <Button
+        android:id="@+id/btncheck4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크상태변경" />
+
+</LinearLayout>

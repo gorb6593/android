@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="run_click"
+            android:layout_margin="3dp"
             android:text="로그인" />
 
         <Button
@@ -25,6 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="run_click"
+            android:layout_margin="3dp"
             android:text="회원가입" />
 
         <Button
@@ -33,6 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="run_click"
+            android:layout_margin="3dp"
             android:text="상세정보" />
     </LinearLayout>
     <FrameLayout

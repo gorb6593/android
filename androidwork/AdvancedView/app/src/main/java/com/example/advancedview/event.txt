@@ -1,0 +1,28 @@
+[이벤트 처리순서]
+1. 이벤트가 발생하면 실행할 클래스를 정의(리스너를 상속받는 클래스)
+    리스너 => Android OS에는 이벤트가 미리 정의되어있어 이벤트가 발생했을 때
+             실행될 클래스도 이미 정의되어 있다.
+             이 클래스를 상속받아서 사용자가 원하는 작업을 할 수 있도록 정의
+2. 이벤트를 연결할 위젯을 찾아오기
+    findViewById(R.id.사용자가 정의한id명)
+3. 2번에서 찾아온 위젯에 리스너객체를 연결
+    setOnXXXXListener(리스너객체)
+    addXXXListener(리스너객체)
+
+[이벤트연결방법]
+1. 익명 내부(inner)클래스 정의하고 사용
+2. 내부클래스를 정의하고 사용
+    Activity내부에 리스너 역할을 하는 클래스를 정의하고 사용하기
+3. Activity가 Listener역할을 하도록 설정
+    Activity클래스 선언부에 Listener를 implements해서 사용한다.
+4. Listener역할을 하는 클래스를 독립적인 클래스로 정의하고 사용하기
+    외부클래스로 정의(사용할 뷰정보를 생성할 때 ㄴ액티비티에서 넘겨주어야 한다.)
+
+[이벤트를 처리하는 리스너의 종류]
+1. View.OnClickListener : 버튼을 클릭할 때 발생하는 이벤트를 처리하는 리스너
+2. TextWatcher : EditText에 사용자가 텍스트를 입력할 때
+                 입력시점에 따라 발생하는 이벤트를 처리
+3. View.OnKeyListener : EditText에서 Enter키와 같은 키보드를 누를 때 발생하는 이벤트를 처리하는 리스너
+4. CompoundButton.OnCheckedChangeListener : CheckBox의 체크값이 변경될 때 처리
+5. RadioGroup.OnCheckedChangeListener : RadioButton의 체크값이 변경될 때 처리
+6. SeekBar.OnSeekBarChangeListener : SeekBar의 값이 변경될 때 실행되는 리스너

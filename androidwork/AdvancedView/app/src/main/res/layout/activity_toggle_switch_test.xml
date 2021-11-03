@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--ToggleButton주요 속성
+        textOn : On상태일때 보여줄 문자열
+        textOff : Off상태일때 보여줄 문자열
+    -->
+    <ToggleButton
+        android:id="@+id/toggleBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="ToggleButton"
+        android:textOn="설정"
+        android:textOff="설정해제"
+        />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textOn="설정"
+        android:textOff="해제"/>
+    <!--texton, textoff-->
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:track="@drawable/switch_track_image"
+        android:thumb="@drawable/switch_thumb_image"
+        />
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="switch button"
+        android:id="@+id/switchCompat01"/>
+  
+
+    <TextView
+        android:id="@+id/ts_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정보:"
+        android:lines="2"
+        />
+
+    <Button
+        android:id="@+id/ts_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상태확인" />
+
+    <Button
+        android:id="@+id/ts_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설정" />
+
+    <Button
+        android:id="@+id/ts_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="해제" />
+
+    <Button
+        android:id="@+id/ts_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle" />
+
+    <Button
+        android:id="@+id/switch_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스위치상태확인" />
+
+    <Button
+        android:id="@+id/switch_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스위치설정" />
+
+    <Button
+        android:id="@+id/switch_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스위치해제" />
+
+
+</LinearLayout>
