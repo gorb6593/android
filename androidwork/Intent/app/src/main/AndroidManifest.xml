@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.intent">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,8 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".LifeCycleTestActivity">
+        <activity android:name=".DoLogIn5"></activity>
+        <activity android:name=".DoLogIn4" />
+        <activity android:name=".DoLogIn3" />
+        <activity android:name=".DoLogIn2" />
+        <activity android:name=".UserOtherApp" />
+        <activity android:name=".ExamFirstActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".ReturnDataSecondActivity" />
+        <activity android:name=".BasicAppRun" />
+        <activity android:name=".ExamSecondActivity" />
+        <activity android:name=".ReturnDataFirstActivity" />
+        <activity android:name=".ReturnDataFirstActivity_Callback" />
+        <activity android:name=".DoLogIn">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

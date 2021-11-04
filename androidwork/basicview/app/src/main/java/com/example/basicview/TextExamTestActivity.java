@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
 public class TextExamTestActivity extends AppCompatActivity {
@@ -25,6 +26,8 @@ public class TextExamTestActivity extends AppCompatActivity {
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 switch (keyCode){
                     case KeyEvent.KEYCODE_ENTER://엔터키에 대한 상수
+                        InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                        imm.hideSoftInputFromWindow(inputdata.getWindowToken(),0);
                         textarea1.append(inputdata.getText()+"\n");
                         textarea2.append(inputdata.getText()+"\n");
                         inputdata.setText("");

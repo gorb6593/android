@@ -18,3 +18,4 @@
 1. View.OnClickListener : 버튼을 클릭할 때 발생하는 이벤트를 처리하는 리스너
 2. TextWatcher : EditText에 사용자가 텍스트를 입력할 때
                  입력시점에 따라 발생하는 이벤트를 처리
+3. View.OnKeyListener : EditText에서 Enter키와 같은 키보드를 누를 때 발생하는 이벤트를 처리하는 리스너
