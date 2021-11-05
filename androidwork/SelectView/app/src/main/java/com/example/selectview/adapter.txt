@@ -1,0 +1,20 @@
+<<Adapter View>>
+뷰를 구성하기 위해서 개발자가 코드를 이용해서 작성하는 뷰를 adater view라 한다.
+
+데이터 + 위젯 + adapter = 결과물
+1) 위젯
+    ListView, Spinner, RecyclerView ...
+2) 데이터
+    DB데이터, 프로그램에서 만들어지는 데이터(배열, HashMap...), 리소스
+3) Adapter
+    - ArrayAdapter
+    - SimpleAdapter
+        전체는 목록 - ArrayList
+        한 row의 데이터 : 두 줄이므로 HashMap에 저장
+        ArrayList<HashMap<String,String>>
+    - Adapter를 사용자정의로 만들어서 작업하는게 일반적
+
+[작업 순서]
+1. 위젯에 출력할 데이터
+2. Adapter객체를 생성
+3. 위젯에 연결
