@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".android.control.led.ButtonTest01">
+
+    <Button
+        android:id="@+id/led1"
+        android:layout_width="match_parent"
+        android:onClick="sending_msg"
+        android:layout_height="wrap_content"
+        android:text="led1" />
+
+    <Button
+        android:id="@+id/led2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sending_msg"
+        android:text="led2" />
+
+    <Button
+        android:id="@+id/led3"
+        android:layout_width="match_parent"
+        android:onClick="sending_msg"
+        android:layout_height="wrap_content"
+        android:text="led3" />
+</LinearLayout>
