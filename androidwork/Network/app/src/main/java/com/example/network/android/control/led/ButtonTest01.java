@@ -52,7 +52,7 @@ public class ButtonTest01 extends AppCompatActivity {
                 Thread t1 = new Thread(new Runnable() {
                     @Override
                     public void run() {
-                        while ((true)){
+                        while (true){
                             String msg;
                             try {
                                 msg = serverIn.readLine();

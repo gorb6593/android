@@ -18,4 +18,15 @@
         android:layout_height="wrap_content"
         android:onClick="send_msg"
         android:text="led끄기"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TextView
+            android:id="@+id/showdata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:background="#B6EDF4"/>
+    </ScrollView>
 </LinearLayout>
